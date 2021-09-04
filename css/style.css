@@ -1,0 +1,8 @@
+.hidden {
+  display: none;
+}
+
+body {
+  width: 1700px;
+  height: 100%;
+}
