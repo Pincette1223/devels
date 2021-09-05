@@ -7,7 +7,7 @@ function getClock() {
   const minutes = String(date.getMinutes()).padStart(2, "0");
   const seconds = String(date.getSeconds()).padStart(2, "0");
   if (hours - 12 < 0 && hours - 12 >= -5) {
-    time.innerText = "좋은 오전입니다.";
+    time.innerText = "좋은 아침입니다.";
   } else if (hours - 12 >= 0 || hours - 12 <= 5) {
     time.innerText = "좋은 오후입니다.";
   } else if (hours - 12 >= 0 || hours - 12 <= 9) {
@@ -19,4 +19,4 @@ function getClock() {
 }
 
 getClock();
-setInterval(getClock, 1000);
+setInterval(getClock, 125);

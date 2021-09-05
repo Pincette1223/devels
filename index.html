@@ -4,40 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Momentum App</title>
+    <title>Devels</title>
   </head>
   <body>
     <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
       <input
+		class="name-input"
+		id="name-input"
         required
         maxlength="15"
         type="text"
         placeholder="이름을 입력하세요."
       />
-      <input type="submit" value="입력" />
     </form>
-    <h1 class="hidden" id="greeting"></h1>
+    <h1 class="hidden greeting"></h1><br><br>
     <h2 class="time"></h2>
-    <h3 class="words"></h3>
     <form id="todo-form">
-      <input type="text" placeholder="해야 할 일을 입력하세요." required />
+      <input class="todo-input" type="text" placeholder="해야 할 일을 입력하세요." required />
     </form>
     <ul id="todo-list"></ul>
     <div id="fun_fact">
-      <span>흥미로운 사실 :</span>
       <span></span>
     </div>
     <div id="weather">
       <span></span>
-      <span></span>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
-    <script src="js/words.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+	<script>
+	  console.log("노마드 코더 바닐라JS 수강자 분들 고생 많으셨습니다!")
+	</script>
   </body>
 </html>
