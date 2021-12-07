@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
 * {
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   color: white;
   text-align: center;
+}
+
+span,
+h1,
+h2 {
+  box-shadow: 2px 2px 1px 1px #303030;
+}
+
+li > span {
+  box-shadow: 1px 1px #303030;
 }
 
 body {
@@ -13,6 +23,11 @@ body {
   padding-top: 180px;
   text-align: center;
   background-position: center;
+}
+
+body::before {
+  filter: blur(1px);
+  --webkit-filter: blur(1px);
 }
 
 #clock {
@@ -31,7 +46,7 @@ body {
   border: none;
   color: white;
   font-size: 28px;
-  border-bottom: 2px solid #1ECD97;
+  border-bottom: 2px solid #1ecd97;
 }
 
 .name-input::placeholder,
