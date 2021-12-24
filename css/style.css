@@ -9,11 +9,11 @@
 span,
 h1,
 h2 {
-  box-shadow: 2px 2px 1px 1px #303030;
+  text-shadow: 3px 3px #303030;
 }
 
 li > span {
-  box-shadow: 1px 1px #303030;
+  text-shadow: 2px 2px #303030;
 }
 
 body {
